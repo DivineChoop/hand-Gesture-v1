@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+#start_btn  {
+    height: 50px;
+    width: 100px;
+}
+
+h3 {
+    color: blue;
+}
+
+h2 {
+    color: red;
+}
+
+p {
+    color: greenyellow;
+}
+
+.copy_right_footer {
+    margin-top: 420px;
+}

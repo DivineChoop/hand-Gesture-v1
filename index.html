@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <center>
+        <div class="col-xs-12 header_div text-center">
+            <h2>Sound Controlled Animals</h2>
+            <p>Note: Make Barking, Meowing, Clucking and Mooing to make the animals appear!</p>
+        </div>
+        <div class="main_div">
+            <br>
+            <button id="start_btn" class="btn btn-danger" onclick="startClassification();">Start</button>
+            <h3 id="result_label">I can hear - </h3>
+            <h3 id="result_confidence">Accuracy - </h4>
+                <br>
+                <span>
+                    <img id="MainImg" src="https://s3-whjr-curriculum-uploads.whjr.online/dd5ed82b-b105-4b93-806f-1f9e718b56ec.png"  width="500" height="500">
+                  
+                </span>
+        </div>
+        <div class="copy_right_footer">
+            <p>Developed By - Rohan</p>
+        </div>
+    </center>
+    
+    <script src="main.js"></script>
+</body>
+
+</html>
